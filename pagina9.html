@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 9 - Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Página 9 - Dibujo en Canvas</h1>
+        <canvas id="miCanvas" width="400" height="200"></canvas>
+        <script>
+            var canvas = document.getElementById('miCanvas');
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'blue';
+            ctx.fillRect(50, 50, 150, 100);
+        </script>
+        <br>
+        <a href="pagina8.html">Página Anterior</a>
+        <a href="pagina10.html">Página Siguiente</a>
+    </div>
+</body>
+</html>
